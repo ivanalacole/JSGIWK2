@@ -1,5 +1,5 @@
 // HARD: Given the information below for Tom and Jerry.
-// ● Tom - height:  9in mass: 8 g
+// ● Tom - height: 9 in mass: 8 g
 // ● Jerry - height: 10in mass: 45 g
 // Compare the BMI (Body Mass Index) of Tom & Jerry using the formula below:
 // BMI = mass / height ^2 = mass / (height * height)
@@ -14,16 +14,14 @@
 
 // BMI = mass / height ^2 = mass / (height * height)
 
-let tomBmi = 8 / (9 * 9);
-// console.log(TomBmi)
-let jerBmi = 45 / (10 * 10);
-// console.log(jerBmi)
-let = Boolean(tomBmi < jerBmi)
-console.log('Is Tom BMI higher than Jerry?', tomHi);
+const tomBMI = 8 / (9 * 9)
+const jerryBMI =  45 / (10 * 10)
 
+const higherBMI = Boolean (tomBMI > jerryBMI)
 
-// function BMI () {
-//     if(jerBmi > tomBmi) {
-//         // console.log(tr)
-//     }
-// }
+if (tomBMI > jerryBMI) {
+    console.log(`Is Tom BMI being higher than Jerry's ? ${higherBMI}`)
+} else {
+    console.log(`Is Jerry BMI being higher than Tom ? ${higherBMI}`)
+}
+
